@@ -108,10 +108,10 @@
     </Assign>
     <Assign sap:VirtualizedContainerService.HintSize="546,122" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[Birthdays("Maria da Silva")]</OutArgument>
+        <OutArgument x:TypeArguments="x:String">[Birthdays("Maria")]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">06/06/1996</InArgument>
+        <InArgument x:TypeArguments="x:String">06/06/1901</InArgument>
       </Assign.Value>
     </Assign>
     <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="546,1297" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[Birthdays.Keys]">
